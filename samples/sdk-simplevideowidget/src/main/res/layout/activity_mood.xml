@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoodActivity">
+
+    <TextView
+        android:id="@+id/Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text="How are you feeling?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <RadioButton
+        android:id="@+id/zeroEighteen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="399dp"
+        android:button="@drawable/angrycopy"
+        android:onClick="onRadioButtonClicked" />
+        <!--android:text="angry"-->
+
+
+    <RadioButton
+        android:id="@+id/eighteenThirty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="399dp"
+        android:button="@drawable/sadcopy"
+        android:onClick="onRadioButtonClicked" />
+        <!--android:text="Sad"-->
+
+    <RadioButton
+        android:id="@+id/thirtyPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="534dp"
+        android:button="@drawable/happycopy"
+        android:onClick="onRadioButtonClicked"/>
+        <!--android:text="Happy" -->
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:text="Next"/>
+
+
+</RelativeLayout>

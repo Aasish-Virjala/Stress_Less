@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "507794515481",
+    "firebase_url": "https://stressapp-4995f.firebaseio.com",
+    "project_id": "stressapp-4995f",
+    "storage_bucket": "stressapp-4995f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507794515481:android:959a37563f365d23",
+        "android_client_info": {
+          "package_name": "com.aasish.samsungsolvetestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507794515481-vkjbuns5vpu47bvtqhvkfs9sr2psi2q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4v_-E2qMIDOPqX0auwqrbd2-hrhLd-Vg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507794515481:android:59fe3a832e1e567e",
+        "android_client_info": {
+          "package_name": "com.google.vr.sdk.samples.simplevideowidget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507794515481-vkjbuns5vpu47bvtqhvkfs9sr2psi2q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4v_-E2qMIDOPqX0auwqrbd2-hrhLd-Vg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
